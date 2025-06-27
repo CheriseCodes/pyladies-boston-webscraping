@@ -1,0 +1,6 @@
+crawl4ai
+Scrapy
+pandas
+bs4
+selenium
+playwright
