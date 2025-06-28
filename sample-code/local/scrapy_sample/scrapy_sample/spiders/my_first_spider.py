@@ -3,12 +3,16 @@ Step 1: Create a new Scrapy project
 
 scrapy startproject my_project
 
-Step 2: Create a new spider in project_name/spiders/ folder
+Step 2: Create a new spider in my_project/spiders/ folder
 Step 3: Run the crawler
 
 cd my_project
 scrapy crawl first  # without saving
 scrapy crawl first -O first.json # with saving
+
+Step 4 (Optional): Update settings.py to limit visits
+
+DEPTH_LIMIT = 3
 
 '''
 import scrapy
